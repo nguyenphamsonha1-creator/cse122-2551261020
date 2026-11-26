@@ -1,0 +1,51 @@
+    :root {
+      --nen-khung: #FFFDE7;
+      --vien-khung: #9E9E9E;
+      --do: #D40000;
+      --xanh: #0033CC;
+      --hong: #FFD9E6;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .khung-tho {
+      box-sizing: border-box;
+      width: 640px;
+      max-width: 100%;
+      padding: 24px;
+      text-align: center;
+      background: var(--nen-khung);
+      border: 1px solid var(--vien-khung);
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      padding: 6px 0;
+      font-size: 26px;
+      color: var(--do);
+      background: var(--hong);
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+      font-style: italic;
+      line-height: 1.7;
+    }
+
+    .kho-xanh { color: var(--xanh); }
+    .kho-do   { color: var(--do); }
+
+    hr {
+      width: 55%;
+      margin: 16px auto;
+      border: 0;
+      border-top: 1px solid var(--xanh);
+    }
